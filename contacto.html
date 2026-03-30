@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Zig Bit</title>
+    <meta
+      name="description"
+      content="Formulario y datos de contacto de Zig Bit para consultas sobre desarrollo web, marketing y SEO."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Zig Bit</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="nosotros.html">Sobre nosotros</a></li>
+            <li><a href="clientes.html">Empresas que nos eligen</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section hero">
+        <div class="container">
+          <p class="eyebrow reveal">Contacto</p>
+          <h1 class="reveal delay-1">Hablemos de tu proximo proyecto digital.</h1>
+          <p class="lead reveal delay-2">
+            Completa el formulario y nuestro equipo te respondera para definir una estrategia a
+            medida de tus objetivos de negocio.
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <h2 class="section-title">Datos de contacto</h2>
+            <ul class="contact-data">
+              <li><strong>Correo:</strong> contacto@zigbit.com</li>
+              <li><strong>Telefono:</strong> +54 11 3456 7890</li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal delay-1" action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="tu@email.com" required />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="5"
+              placeholder="Contanos que necesitas"
+              required
+            ></textarea>
+
+            <button class="btn" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          Integrantes del grupo: Jonathan Verones, Dante Liongo, Paula Brusati, Camila Aranda,
+          Franco Gutierrez
+        </p>
+        <p>&copy; 2026 Zig Bit Consultora Digital</p>
+      </div>
+    </footer>
+  </body>
+</html>
