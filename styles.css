@@ -95,7 +95,7 @@ main {
   gap: 1.2rem;
 }
 
-.nav-links a {
+.nav-links .link-btn {
   text-decoration: none;
   color: var(--muted);
   font-size: 0.96rem;
@@ -103,12 +103,14 @@ main {
   transition: color 0.2s ease;
 }
 
-.nav-links a:hover,
-.nav-links a:focus-visible {
+.nav-links .link-btn:hover,
+.nav-links .link-btn:focus-visible {
   color: var(--brand-dark);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
-.nav-links a.active {
+.nav-links .link-btn.active {
   color: var(--brand-dark);
   font-weight: 700;
 }
